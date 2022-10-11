@@ -1,0 +1,22 @@
+module Unit
+  class Error < StandardError
+  end
+
+  attr_reader first_name: untyped
+
+  attr_reader last_name: untyped
+
+  attr_reader height_feet: untyped
+
+  attr_reader height_inches: untyped
+
+  attr_reader position: untyped
+
+  attr_reader team_id: untyped
+
+  attr_reader weight_pounds: untyped
+
+  def initialize: (untyped first_name, untyped last_name, untyped height_feet, untyped height_inches, untyped position, untyped team_id, untyped weight_pounds) -> void
+
+  def call: () -> untyped
+end
